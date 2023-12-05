@@ -3,7 +3,7 @@ button.mat-focus-indicator.mat-menu-trigger.action-button.mat-stroked-button.mat
 }
 { /* This would hide the second "Add Myself Button" in this case, the Guest "Add Myself" Ticket button. nth-child(X) will need to be adjusted depending on the position of the guest ticket from top to bottom*/
 
-.card-wrapper.ng-star-inserted:nth-child(2) .add-self-button {
+.card-wrapper.ng-star-inserted:nth-child(2) .mat-focus-indicator add-self-button mat-stroked-button mat-button-base ng-star-inserted {
     display: none;
 }
 { /* This would hide the second "Add Myself Button" in this case, the Guest "Add Myself" Ticket button. nth-child(X) will need to be adjusted depending on the position of the guest ticket from top to bottom*/
