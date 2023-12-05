@@ -1,3 +1,28 @@
 button.mat-focus-indicator.mat-menu-trigger.action-button.mat-stroked-button.mat-button-base.ng-star-inserted {
     VISIBILITY: HIDDEN;
 }
+{ /* This would hide the second "Add Myself Button" in this case, the Guest "Add Myself" Ticket button. nth-child(X) will need to be adjusted depending on the position of the guest ticket from top to bottom*/
+
+.card-wrapper.ng-star-inserted:nth-child(2) .add-self-button {
+    display: none;
+}
+{ /* This would hide the second "Add Myself Button" in this case, the Guest "Add Myself" Ticket button. nth-child(X) will need to be adjusted depending on the position of the guest ticket from top to bottom*/
+
+.card-wrapper.ng-star-inserted:nth-child(3) .add-self-button {
+    display: none;
+}
+{ /* This would hide the second "Add Myself Button" in this case, the Guest "Add Myself" Ticket button. nth-child(X) will need to be adjusted depending on the position of the guest ticket from top to bottom*/
+
+.card-wrapper.ng-star-inserted:nth-child(4) .add-self-button {
+    display: none;
+}
+{ /* This would hide the second "Add Myself Button" in this case, the Guest "Add Myself" Ticket button. nth-child(X) will need to be adjusted depending on the position of the guest ticket from top to bottom*/
+
+.card-wrapper.ng-star-inserted:nth-child(5) .add-self-button {
+    display: none;
+}
+{ /* This would hide the second "Add Myself Button" in this case, the Guest "Add Myself" Ticket button. nth-child(X) will need to be adjusted depending on the position of the guest ticket from top to bottom*/
+
+.card-wrapper.ng-star-inserted:nth-child(6) .add-self-button {
+    display: none;
+}
