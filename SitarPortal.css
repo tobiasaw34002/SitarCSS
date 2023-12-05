@@ -1,4 +1,4 @@
-.card-wrapper.ng-star-inserted:nth-child(2) .mat-focus-indicator add-self-button mat-stroked-button mat-button-base ng-star-inserted {
+.card-wrapper.ng-star-inserted:nth-child(2) .add-self-button {
     display: none;
 }
 
